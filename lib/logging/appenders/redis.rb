@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "redis"
+
 module Logging
   module Appenders # :nodoc:
     # Accessor / Factory for the Redis appender.
