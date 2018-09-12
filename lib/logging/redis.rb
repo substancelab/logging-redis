@@ -1,4 +1,4 @@
-require "logging/redis/version"
+require 'logging/redis/version'
 
 module Logging
   module Redis
