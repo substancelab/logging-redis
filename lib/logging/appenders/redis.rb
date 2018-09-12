@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Logging
-  module Appenders
+  module Appenders # :nodoc:
     # Accessor / Factory for the Redis appender.
     def self.redis(*args)
       return ::Logging::Appenders::Redis if args.empty?

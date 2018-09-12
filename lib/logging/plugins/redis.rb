@@ -2,7 +2,7 @@
 
 module Logging
   module Plugins
-    module Redis
+    module Redis # :nodoc:
       module_function
 
       VERSION = '0.0.1'.freeze
