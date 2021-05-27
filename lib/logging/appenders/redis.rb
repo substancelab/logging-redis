@@ -20,7 +20,7 @@ module Logging
       def initialize(name, opts = {})
         super(name, opts)
         configure_buffering(opts)
-        @redis = ::Redis.new
+        @redis = ::Redis.new(opts[:redis])
       end
 
       # Close the Redis appender.
